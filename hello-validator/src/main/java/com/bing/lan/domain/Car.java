@@ -3,11 +3,12 @@ package com.bing.lan.domain;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
+import lombok.Data;
 
 /**
  * Created by oopcoder at 2022/7/28 22:33 .
  */
-
+@Data
 public class Car {
 
   @NotNull

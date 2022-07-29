@@ -5,11 +5,12 @@ import java.util.List;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
+import lombok.Data;
 
 /**
  * Created by oopcoder at 2022/7/28 23:21 .
  */
-
+@Data
 public class CarContainer {
 
   // 注释该行进行测试
